@@ -4,28 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Basic CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@0,900;1,400&family=Sofia&display=swap" rel="stylesheet">
     <style>
-        #name{
-            background-color: aqua;
-            color: blueviolet;
-            font-size: larger;
-        }
-        h2{
-            text-decoration: underline;
-            text-transform: uppercase;
-            color: crimson;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-        }
-        .parentName{
-            background-color: brown;
-            font-size: larger;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        .degree{
-            font-size: x-large;
-            color: pink
-            background-color: bisque;
-        }
+      #name{
+          background-color: aqua;
+          color: blueviolet;
+          font-size: larger;
+          font-family: 'Sofia', cursive;
+      }
+      h2{
+          text-decoration: underline;
+          text-transform: uppercase;
+          color: crimson;
+          font-family: 'Poppins', sans-serif;
+      }
+      .parentName{
+          background-color: brown;
+          font-size: larger;
+          font-family: Arial, Helvetica, sans-serif;
+      }
+      .degree{
+          font-size: x-large;
+          color: pink
+          background-color: bisque;
+      }
+      .dummy{
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 5px;
+        text-decoration: underline;
+        font-family: 'Roboto', sans-serif;
+
+      }
+      .tools{
+        /* border-style: solid;
+        border-width: 2px;
+        border-color: blueviolet; */
+        border: solid rgb(180, 92, 92) 2px;
+        
+      }
     </style>
   </head>
   <body>
@@ -34,14 +53,21 @@
       magni? Suscipit ab ipsum ducimus architecto, voluptas sed iste magnam
       necessitatibus impedit sapiente fugiat officia minus ea iure commodi in.
     </p>
-    <p style="color: deeppink; font-size: xx-large; font-weight: 500;">
+    <p style="color: deeppink; font-size: xx-large; font-weight: 500">
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, consectetur
       tempora repellat error fuga quibusdam ex expedita ipsam fugit laboriosam!
     </p>
-    <h2>My Personal details </h2>
+    <h2>My Personal details</h2>
     <p id="name">Name : Dada Bhoge</p>
     <p id="fatherName" class="parentName">Father Name : Sunil</p>
     <p id="motherName" class="parentName">Mother Name : Sindhu</p>
     <p class="degree">Degree : Computer Engineering</p>
+    <p class="dummy">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero possimus ad
+      ut, aperiam minus provident error quidem reiciendis dicta quasi explicabo,
+      tempora cumque rem eligendi consectetur inventore id recusandae officia?
+    </p>
+
+    <p class="tools">I know tools : Git, Desktop Git, Agile and JIRA</p>
   </body>
 </html>

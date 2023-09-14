@@ -4,10 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Flex:opsz,wght@8..144,500&display=swap" rel="stylesheet">
     <style>
         .heading{
             background-color: yellow;
             color: red;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-family: 'Roboto Flex', sans-serif
         }
         #angular{
             color: darkorange;
@@ -20,6 +26,9 @@
             background-color: aqua;
             color: rgb(237, 108, 22);
         }
+        #summeryList{
+          font-family: 'Poppins', sans-serif;
+        }
     </style>
   </head>
   <body>
@@ -29,7 +38,7 @@
       organizational growth.
     </p>
     <h2 class="heading">Professional Summery</h2>
-    <ul>
+    <ul id="summeryList">
       <li>
         Having 1 years of experience in developing single page web application
         using <span id="angular">angular 8</span>, HTML, CSS3, Bootstrap 5, JavaScript, TypeScript
